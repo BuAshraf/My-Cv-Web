@@ -1,6 +1,6 @@
 # Digital Resume 👨🏽‍💻
 
-This is a digital resume that I did with Python and Streamlit
+This is a digital resume for me that I did with Python and Streamlit. I haven't uploaded it to any server yet, but I will do so in the future
 
 ## Screenshots
 
