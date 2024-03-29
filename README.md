@@ -3,7 +3,7 @@
 This is a digital resume for me that I did with Python and Streamlit. I haven't uploaded it to any server yet, but I will do so in the future
 
 ## Screenshots
-
+some pre photos 
 ![1](./Website/static/Assets/1.png?raw=true "1")
 ![2](./Website/static/Assets/2.png?raw=true "2")
 ![3](./Website/static/Assets/3.png?raw=true "3")
