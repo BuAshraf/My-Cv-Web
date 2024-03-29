@@ -26,11 +26,6 @@ Terminal
 streamlit run app.py
 ```
 
-## MY Resume
-(./Website/static/Assets/Muhammed Alkulaib__CV.pdf?raw=true "Muhammed Alkulaib__CV")
-
-## MY Courses
-(./Website/static/Assets/SDAIA_Data_Mangment.pdf?raw=true "SDAIA_Data_Mangment")
 
 
 ## Get to Know Me  😁
