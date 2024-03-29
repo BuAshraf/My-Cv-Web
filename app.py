@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "Website" / "static" / "styles"  / "main.css"
-resume_file = current_dir / "Website" / "static" / "Assets" / "CV.pdf"
+resume_file = current_dir / "Website" / "static" / "Assets" / "Muhammed Alkulaib__CV.pdf"
 profile_pic = current_dir / "Website" / "static" / "Assets" / "PPFme.png"
 
 
@@ -34,6 +34,13 @@ EDUCATION = {
      "Bachelors of Computer science",
       "2018-2023"
 }
+
+COURSES = {
+    "Tuwaiq Academy",
+     "SDAIA Data management Bootcamp",
+       " 03/12/2023 - 28/12/2023"
+}
+
 SKILLS = {
     "♦ Computer Programming",
     "♦ Ability to Work With a Team",
@@ -116,6 +123,12 @@ st.write("---")
 for EDUCATION in EDUCATION:
     st.write(f"{EDUCATION}")
 
+# --- COURSES ---
+st.write('\n')
+st.subheader("COURSES")
+st.write("---")
+for COURSES in COURSES:
+    st.write(f"{COURSES}")
 
 
 # --- SKILLS ---
