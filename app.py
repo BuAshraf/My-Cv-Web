@@ -8,6 +8,7 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "Website" / "static" / "styles"  / "main.css"
 resume_file = current_dir / "Website" / "static" / "Assets" / "Muhammed Alkulaib__CV.pdf"
+Course1_file = current_dir / "Website" / "static" / "Assets" / "SDAIA_Data_Mangment.pdf"
 profile_pic = current_dir / "Website" / "static" / "Assets" / "PPFme.png"
 
 
@@ -71,11 +72,18 @@ st.set_page_config (page_title=PAGE_TITLE, page_icon = PAGE_ICON)
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
+
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+   # -- Resume -- 
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
+   # -- Courses -- 
+with open(Course1_file, "cb") as pdf_file:
+    PDFbyte = pdf_file.read()    
+    
 profile_pic = Image.open(profile_pic)
+
 
 
 
